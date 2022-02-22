@@ -1,4 +1,3 @@
-fi
 service apache2 restart > /dev/null 2>&1
 clear
 echo '* * * * * root /usr/bin/php /var/www/html/pages/system/cron.php' >> /etc/crontab
